@@ -31,14 +31,14 @@ body{
     background: rgba(255,255,255,0.08);
     box-shadow:0 0 40px rgba(0,255,255,0.3);
     animation: fadeInScale 1.2s ease forwards;
-    transform:scale(0.8);
+    transform:scale(0.6);
 }
 
 /* Form entrance animation */
 @keyframes fadeInScale{
     to{
         opacity:1;
-        transform:scale(1);
+        transform:scale(0.8);
     }
 }
 
